@@ -4,5 +4,7 @@
 
 习题1: [按日期每日生成一个文件](https://github.com/Ivan-yyq/shell100/blob/master/codes/1.md)
 </br>
-习题2: [按日期每日生成一个文件](https://github.com/Ivan-yyq/shell100/blob/master/codes/2.md)
+习题2: [统计出每个IP的访问量有多少](https://github.com/Ivan-yyq/shell100/blob/master/codes/2.md)
+</br>
+习题2: [统计出每个IP的访问量有多少](https://github.com/Ivan-yyq/shell100/blob/master/codes/2.md)
 </br>
