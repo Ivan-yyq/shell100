@@ -2,5 +2,5 @@
 
 
 
-案例1: [备份MySQL数据库](https://github.com/Ivan-yyq/shell100/blob/master/codes/1.md)
+案例1: [按日期每日生成一个文件](https://github.com/Ivan-yyq/shell100/blob/master/codes/1.md)
 </br>
