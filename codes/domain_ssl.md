@@ -1,12 +1,15 @@
 #!/bin/bash
 #监控公司域名证书到期发送钉钉消息通知
 #作者：小杨
-#日期：2018/10/6
+#日期：2018/12/06
 #版本：v0.2
 
-
+#自定义机器人参考文档说明：https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.aS1CPQ&treeId=257&articleId=105735&docType=1
+#定义艾特的人
 PHONE="15xxxxxxxxx"
+#定义钉钉群机器人的Token
 TOKEN="https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx"
+
 
 #域名存放路径
 dir="/tmp/domain_ssl.txt"
