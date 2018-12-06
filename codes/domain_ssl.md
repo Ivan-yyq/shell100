@@ -24,6 +24,11 @@ do
 
     if [ $NEW_TIME -lt 30 ];  #当到期时间小于30天时，发钉钉群消息告警
     then
-        curl -H "Content-Type:application/json" -X POST --data '{"msgtype":"text","text":{"content":"域名：'$yuming'   赛门铁克免费证书到期日期，剩余：'$NEW_TIME' 天"} , "at": {"atMobiles": ['${PHONE}'], "isAtAll": false}}' ${TOKEN} > /dev/null 2>&1
+        curl -H "Content-Type:application/json" -X POST --data '{\
+        "msgtype":"text","text":\
+        {"content":"域名：'$yuming',\r赛门铁克免费证书到期日期，剩余：'$NEW_TIME' 天"} , \
+        "at": \
+        {"atMobiles": ['${PHONE}'], "isAtAll": false}\
+        }' ${TOKEN} > /dev/null 2>&1
     fi
 done
